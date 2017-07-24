@@ -62,7 +62,7 @@ Responsive media queries
     outline: none;
 }
 .navbar-default .navbar-nav > li > a{
-	font-size: 14px;
+	font-size: 16px; /* this is to change size of header options */
 	font-weight: 400;
 	color: #fff;
     outline: none;
@@ -129,7 +129,7 @@ Responsive media queries
 	padding: 60px 0px;
 }
 .title{
-	font-size: 24px;
+	font-size: 30px;
 	margin-bottom: 50px;
 }
 .title-text{
@@ -146,7 +146,7 @@ Responsive media queries
 	font-weight: 400;
 }
 #portfolio{
-	background-color: rgba(0, 143, 249, 0.19);
+	background-color: rgba(0, 126, 255, 0.09);
 }
 .grid-padding{
 	padding: 0 8px;
@@ -345,7 +345,32 @@ footer {
   width: 150px;
 }
 
+/* website to make square/circular image: 
+https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 
+.square-image { 
+    width: 160px;
+}
+
+.pink-background { 
+    background-color: #FCE7E3;
+}
+
+.lightblue-background { 
+    background-color: #E9F7F8;
+}
+
+.lightgray-back{ 
+    background-color: #f2f2f2;
+}
+
+.blue-back { 
+    background-color: #0070c9;
+}
+
+.black-back{
+    background-color: #1A1A1A;
+}
 
 /* Bootsnip video gallery css */
 
@@ -484,6 +509,22 @@ footer {
   background: #db3615;
 }
 
+.progress .color5,
+.progress .color5 .bar-width{
+    background: #f46c0e; /* orange */ 
+}
+
+.progress .color6,
+.progress .color6 .bar-width{
+    background: #FF466A; /*pink */
+}
+
+.progress .color7,
+.progress .color7 .bar-width{
+    background: #4e1498; /*purple */
+}
+
+
 .progress, 
 .progress-bar {
   height: 15px;
@@ -545,10 +586,25 @@ footer {
   border-color: #db3615 transparent transparent transparent;
 }
 
+.progress .color5 span:before{
+  border-color: #f46c0e transparent transparent transparent;
+}
+
+.progress .color6 span:before{
+  border-color: #FF466A transparent transparent transparent;
+}
+
+.progress .color7 span:before{
+  border-color: #4e1498 transparent transparent transparent;
+}
+
+
+
 
 .specialties img {
     margin-top:30px;
     margin-bottom:50px;
+
 }
 
 .skills {

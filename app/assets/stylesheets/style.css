@@ -42,7 +42,7 @@ Responsive media queries
 ************************************
 ***********************************/
 .header {
-    background: url('../assets/bg-banner03.jpg') no-repeat fixed;
+    background: image-url('bg-banner03.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     position: relative;
@@ -121,7 +121,7 @@ Responsive media queries
 
 }
 #about{
-	background: url('../assets/about-banner.jpg') no-repeat;
+	background: image-url('about-banner.jpg') no-repeat;
 	background-size: cover;
 	margin-bottom: -3px;
 }
@@ -333,7 +333,7 @@ footer {
 }
 
 .education { 
-    background: url('../assets/ucberk.jpg') no-repeat fixed;
+    background: image-url('ucberk.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
     position: relative;

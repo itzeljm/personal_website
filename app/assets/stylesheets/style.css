@@ -68,11 +68,11 @@ Responsive media queries
     outline: none;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #fffde0;
+    color: #cdc43d;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #fffde0;
+    color: #cdc43d;
     background-color: transparent;
 }
 
@@ -129,13 +129,13 @@ Responsive media queries
 	padding: 60px 0px;
 }
 .title{
-	font-size: 30px;
+	font-size: 35px;
 	margin-bottom: 50px;
 }
 .title-text{
 	padding: 0px 25px 0px 0px;
 	border-right: 5px solid #BE2525;
-	font-size: 24px;
+    font-size: 24px;
 }
 .about-text p{
 	color: #444;
@@ -146,7 +146,8 @@ Responsive media queries
 	font-weight: 400;
 }
 #portfolio{
-	background-color: rgba(0, 126, 255, 0.09);
+    background-color: rgba(0, 126, 255, 0.39); /* darker blue */
+	/*background-color: rgba(0, 126, 255, 0.09); light blue */ 
 }
 .grid-padding{
 	padding: 0 8px;
@@ -293,7 +294,7 @@ footer {
 	margin: 0;
 }
 .social-list li a{
-		font-size: 28px;
+		font-size: 48px;
 		margin-right: 15px;
 }
 .type-underline, .type-underline:hover{
@@ -345,11 +346,22 @@ footer {
   width: 150px;
 }
 
+.leadership { 
+    /*background-color: rgba(0, 0, 139, 0.87);*/
+    /*background-color: darkblue;*/
+    background-color: darkred;
+}
+
+
 /* website to make square/circular image: 
 https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 
 .square-image { 
     width: 160px;
+}
+
+.mr-square {
+    width: 300px;
 }
 
 .pink-background { 

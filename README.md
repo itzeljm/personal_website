@@ -8,7 +8,7 @@ Thank you for taking the time to read this README!
 
 
 
-### Website Demo 
+## Website Demo 
 
 <img width="1440" alt="website" src="https://user-images.githubusercontent.com/6626480/29727980-f09a9186-898a-11e7-9216-b4d099a41dd9.png">
 

@@ -10,9 +10,8 @@ Thank you for taking the time to read this README!
 
 ## Website Demo 
 
+<img width="1440" alt="website" src="https://user-images.githubusercontent.com/6626480/29727899-a9a788b0-898a-11e7-9a82-bef3204e672a.png">
 
-
-![ScreenShot](https://raw.githubusercontent.com/iitzeljm/personal_website/master/personal_website/app/assets/images/website demo.png)
 
 <!-- 
 

@@ -15,7 +15,7 @@ Thank you for taking the time to read this README!
         <div class="block two first">
             <h2>Your title</h2>
             <div class="wrap">
-            //Your content
+            ![Alt text](/relative/path/to/img.jpg?raw=true "Website Demo")
             </div>
         </div>
     </div>

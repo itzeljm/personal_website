@@ -6,6 +6,8 @@ To learn more about who I am, and what kind of projects I've worked on you can c
 
 Thank you for taking the time to read this README!
 
+![Alt text](personal_website/app/assets/images/website demo.png?raw=true "Website Demo")
+
 
 ```html
 <h2>Website Sneak Peak</h2>
@@ -15,7 +17,7 @@ Thank you for taking the time to read this README!
         <div class="block two first">
             <h2>Your title</h2>
             <div class="wrap">
-            ![Alt text](/relative/path/to/img.jpg?raw=true "Website Demo")
+            ![Alt text](personal_website/app/assets/images/website demo.png?raw=true "Website Demo")
             </div>
         </div>
     </div>

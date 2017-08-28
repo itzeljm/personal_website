@@ -6,7 +6,13 @@ To learn more about who I am, and what kind of projects I've worked on you can c
 
 Thank you for taking the time to read this README!
 
-![ScreenShot](https://raw.githubusercontent.com/iitzeljm/personal_website/master/personal_website/app/assets/images/website demo.png)
+
+
+## Website Demo 
+
+<a href="http://www.itzelmartinez.tk/"> <img width="1440" alt="website" src="https://user-images.githubusercontent.com/6626480/29727980-f09a9186-898a-11e7-9216-b4d099a41dd9.png"> </a>
+
+
 
 <!-- 
 

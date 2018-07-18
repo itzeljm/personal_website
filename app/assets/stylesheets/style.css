@@ -77,7 +77,7 @@ Responsive media queries
 }
 
 .top-nav-collapse {
-    padding: 0; 
+    padding: 0;
     background: rgba(50,60,70, 0.9);
 }
 
@@ -147,7 +147,7 @@ Responsive media queries
 }
 #portfolio{
     background-color: rgba(0, 126, 255, 0.39); /* darker blue */
-	/*background-color: rgba(0, 126, 255, 0.09); light blue */ 
+	/*background-color: rgba(0, 126, 255, 0.09); light blue */
 }
 .grid-padding{
 	padding: 0 8px;
@@ -298,7 +298,7 @@ footer {
 		margin-right: 15px;
 }
 .type-underline, .type-underline:hover{
-	color: #767676; 
+	color: #767676;
 }
 .footer__lower {
     margin-top: 3.25em;
@@ -324,15 +324,15 @@ footer {
 
 /* My own CSS */
 
-.avenir-font { 
+.avenir-font {
     font-family: Avenir;
 }
 
-.white-text { 
+.white-text {
     color: white;
 }
 
-.education { 
+.education {
     background: url('../assets/ucberk.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
@@ -346,17 +346,21 @@ footer {
   width: 150px;
 }
 
-.leadership { 
+.leadership {
     /*background-color: rgba(0, 0, 139, 0.87);*/
     /*background-color: darkblue;*/
     background-color: darkred;
 }
 
 
-/* website to make square/circular image: 
+/* website to make square/circular image:
 https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 
-.square-image { 
+.lbla-image {
+    width: 100px;
+}
+
+.square-image {
     width: 160px;
 }
 
@@ -364,19 +368,19 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
     width: 300px;
 }
 
-.pink-background { 
+.pink-background {
     background-color: #FCE7E3;
 }
 
-.lightblue-background { 
+.lightblue-background {
     background-color: #E9F7F8;
 }
 
-.lightgray-back{ 
+.lightgray-back{
     background-color: #f2f2f2;
 }
 
-.blue-back { 
+.blue-back {
     background-color: #0070c9;
 }
 
@@ -389,7 +393,7 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 .video {
     height: 0;
     position: relative;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
 }
 .video iframe {
     position: absolute;
@@ -410,7 +414,7 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 }
 
 .download:hover {
-    
+
     color:#1892BF;
     text-decoration:none;
 }
@@ -426,8 +430,8 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
     margin-top:30px;
     margin-right:10px;
 }
-.scrollup:hover {   
-    background-color:#a8d324;   
+.scrollup:hover {
+    background-color:#a8d324;
 }
 
 
@@ -464,11 +468,11 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 /* --- Educations --- */
 .hi-icon-effect {
     padding-bottom:30px;
-    padding-left:10px; 
+    padding-left:10px;
     padding-right:10px;
 }
 
-.hi-icon-effect:hover { 
+.hi-icon-effect:hover {
     -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -503,7 +507,7 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 
 .progress .color1,
 .progress .color1 .bar-width{
-  background: #2d7da4;
+  background: #00629b;
 }
 
 .progress .color2,
@@ -518,12 +522,12 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 
 .progress .color4,
 .progress .color4 .bar-width{
-  background: #db3615;
+  background: #b50a0a;
 }
 
 .progress .color5,
 .progress .color5 .bar-width{
-    background: #f46c0e; /* orange */ 
+    background: #f46c0e; /* orange */
 }
 
 .progress .color6,
@@ -536,8 +540,14 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
     background: #4e1498; /*purple */
 }
 
+.progress .teal,
+.progress .teal .bar-width{
+    background: #009b94; /*purple */
+}
+/* nice purple #9800be */
+/* nice teal #009b94 */
 
-.progress, 
+.progress,
 .progress-bar {
   height: 15px;
   line-height: 15px;
@@ -583,7 +593,7 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 }
 
 .progress .color1 span:before{
-  border-color: #2d7da4 transparent transparent transparent;
+  border-color: #00629b transparent transparent transparent;
 }
 
 .progress .color2 span:before{
@@ -595,7 +605,7 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
 }
 
 .progress .color4 span:before{
-  border-color: #db3615 transparent transparent transparent;
+  border-color: #b50a0a transparent transparent transparent;
 }
 
 .progress .color5 span:before{
@@ -610,7 +620,11 @@ https://www.webpagefx.com/blog/web-design/circular-images-css/ */
   border-color: #4e1498 transparent transparent transparent;
 }
 
+.progress .teal span:before{
+  border-color: #009b94 transparent transparent transparent;
+}
 
+/* teal color #079d73 */
 
 
 .specialties img {
@@ -726,7 +740,7 @@ Responsive media queries
 	}
 }
 @media (min-width: 100px) and (max-width: 550px) {
-	
+
 	.navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
